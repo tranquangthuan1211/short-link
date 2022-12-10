@@ -1,0 +1,165 @@
+.content {
+    width: 600px;
+    min-height: 340px;
+    overflow: hidden;
+    background-color: #fff;
+    margin: 0 auto;
+    & a,
+    h1,
+    p,
+    .qr,
+    .content,
+    .heading,
+    .shorten_link,
+    .input_qr,
+    .short_domain,
+    .hrtco,
+    .shiny,
+    .introduce {
+        background-color: #fff;
+    }
+    button,
+    input {
+        background-color: #e1e1e1;
+    }
+    h2,
+    .price,
+    a {
+        background-color: #ff5722;
+        background-image: linear-gradient(90deg, #ff5722 0%, #ffb74d 100%),
+            linear-gradient(to bottom, rgba(240, 40, 40, 0) 0%, rgba(240, 40, 40, 0) 100%);
+        color: #fff;
+        border-radius: 8px;
+    }
+}
+.heading {
+    width: 100%;
+}
+// shorten link
+.shorten_link {
+    border-radius: 20px;
+    margin: 0;
+    padding: 36px 40px;
+    margin-top: 30px;
+}
+
+.name {
+    margin-top: 0;
+    margin-bottom: 30px;
+}
+
+// input link
+
+.content_input {
+    margin: 10px 0;
+}
+.input_qr {
+    display: flex;
+    align-items: center;
+}
+.load_qr {
+    margin-right: 8px;
+}
+
+.input {
+    width: 320px;
+    height: 30px;
+    padding: 4px 11px;
+    margin: 0 0 12px 4px;
+    border-radius: 4px;
+}
+
+.icon_link {
+    width: 36px;
+    height: 36px;
+    padding: 4px 8px;
+    margin: 0 0 12px 4px;
+    border-radius: 4px;
+    color: #ccc;
+}
+
+// short domain
+
+.short_domain {
+    display: flex;
+    margin-bottom: 36px;
+
+    & button {
+        width: 80px;
+        height: 20px;
+        margin: 0 4px;
+        padding: 4px 10px;
+        display: flex;
+        align-items: center;
+    }
+
+    .hrtco,
+    .qr,
+    .shiny {
+        background-color: #e1e1e1;
+    }
+}
+.title {
+    margin-right: 8px;
+}
+
+// introduce
+
+.introduce {
+    width: 100%;
+    height: 80px;
+    background-color: #ff5722;
+    background-image: linear-gradient(90deg, #ff5722 0%, #ffb74d 100%),
+        linear-gradient(to bottom, rgba(240, 40, 40, 0) 0%, rgba(240, 40, 40, 0) 100%);
+    border-radius: 8px;
+}
+
+.end_input {
+    margin-top: 20px;
+}
+.resultItem {
+    width: 600px;
+    margin: 0 auto;
+    background-color: #fff;
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 0 0 20px 0;
+    border-radius: 10px;
+    display: none;
+
+    & .dowload_qr {
+        width: 400px;
+        height: 50px;
+        background-color: #21253f;
+        color: #fff;
+        font-weight: 1000;
+        line-height: 50px;
+    }
+
+    h2 {
+        width: 100%;
+    }
+}
+.url {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 20px 0;
+}
+
+.url_describe {
+    width: 600px;
+    margin: 16px;
+    background-color: #ff5722;
+    background-image: linear-gradient(90deg, #ff5722 0%, #ffb74d 100%),
+        linear-gradient(to bottom, rgba(240, 40, 40, 0) 0%, rgba(240, 40, 40, 0) 100%);
+    color: #fff;
+    padding: 10px 30px;
+}
+
+.menu {
+    width: 600px;
+    margin: 0 auto;
+}

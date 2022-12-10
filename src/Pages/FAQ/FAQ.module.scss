@@ -1,0 +1,25 @@
+.faq {
+    background-color: #fff;
+    margin: 30px auto 20px auto;
+    width: 100%;
+    max-width: 690px;
+    text-align: left;
+    word-wrap: break-word;
+}
+.header {
+    &p {
+        font-weight: 100;
+    }
+}
+.header .heading {
+    font-family: 'Inter';
+    font-weight: 800;
+    font-size: 3.1rem;
+}
+
+.container .container_item {
+    & h2 {
+        font-weight: 800;
+        margin-bottom: 20px;
+    }
+}
